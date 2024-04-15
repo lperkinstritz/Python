@@ -1,0 +1,69 @@
+Problem Statement:
+  I am designing a gradebook that can be used in an 
+  elementary school setting that uses standardized 
+  grading. Input required from user will be student first name,
+  last name, homeroom, class date, practical grade and behavioral
+  grade. The program should calculate the current practical and
+  behavior average grade throughout the semester and display for
+  each student shown in the display option.
+
+
+gradebook_db.sqlite
+
+Nouns and Verbs:
+  Nouns:  studentID, first name, last name,
+          homeroom, practical grade, behavior grade,
+          gradeID, class date
+          
+  Verbs:  input,average, append, edit, update, list
+
+Inputs:
+  enter student first name
+  enter student last name
+  enter student homeroom
+  enter class date
+  enter practical grade 1-3
+  enter behavior grade 1-3
+
+Processing:
+  prompt user for names
+  prompt for homeroom
+  prompt for class date
+  prompt for 2 grades
+  save to database
+  average grade with each update
+  
+Outputs:
+  display of name homeroom and average grades based on 
+  practical and behavior grades.
+  
+
+add new student
+delete student who moved away
+edit student grade
+edit student homeroom
+list students in each homeroom
+choose student to update prac and behav grades
+
+Student class
+  studentID
+  first name
+  last name
+  homeroom
+  grades list
+
+Grade class
+  gradeID
+	studentID
+	class date
+	prac grade
+	behav grade
+	prac grade totals
+	behav grade totals
+	prac grade count
+	behav grade count
+
+
+
+
+
